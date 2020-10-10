@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6D1C52A-AF3A-489A-8F47-E97573A889C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EstructurasdeControl_AlexOmarMartinez</RootNamespace>
+    <AssemblyName>EstructurasdeControl-AlexOmarMartinez</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formularios\FrmDobleoCubo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmDobleoCubo.Designer.cs">
+      <DependentUpon>FrmDobleoCubo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmEdadPromedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmEdadPromedio.Designer.cs">
+      <DependentUpon>FrmEdadPromedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmMostrarNumeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmMostrarNumeros.Designer.cs">
+      <DependentUpon>FrmMostrarNumeros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmMultiplosde5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmMultiplosde5.Designer.cs">
+      <DependentUpon>FrmMultiplosde5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmNotade10Estudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmNotade10Estudiantes.Designer.cs">
+      <DependentUpon>FrmNotade10Estudiantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmNumeroMenor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmNumeroMenor.Designer.cs">
+      <DependentUpon>FrmNumeroMenor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmOrdenAscendente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmOrdenAscendente.Designer.cs">
+      <DependentUpon>FrmOrdenAscendente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmPositivooNegativo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmPositivooNegativo.Designer.cs">
+      <DependentUpon>FrmPositivooNegativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmPromedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmPromedio.Designer.cs">
+      <DependentUpon>FrmPromedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmSuma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmSuma.Designer.cs">
+      <DependentUpon>FrmSuma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmTabladeMultiplicar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmTabladeMultiplicar.Designer.cs">
+      <DependentUpon>FrmTabladeMultiplicar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmTotalaPagarBoleteria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmTotalaPagarBoleteria.Designer.cs">
+      <DependentUpon>FrmTotalaPagarBoleteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmTotalaPagarProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmTotalaPagarProductos.Designer.cs">
+      <DependentUpon>FrmTotalaPagarProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmTotalaPagarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmTotalaPagarVenta.Designer.cs">
+      <DependentUpon>FrmTotalaPagarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\FrmDobleoCubo.resx">
+      <DependentUpon>FrmDobleoCubo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmEdadPromedio.resx">
+      <DependentUpon>FrmEdadPromedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmMostrarNumeros.resx">
+      <DependentUpon>FrmMostrarNumeros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmMultiplosde5.resx">
+      <DependentUpon>FrmMultiplosde5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmNotade10Estudiantes.resx">
+      <DependentUpon>FrmNotade10Estudiantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmNumeroMenor.resx">
+      <DependentUpon>FrmNumeroMenor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmOrdenAscendente.resx">
+      <DependentUpon>FrmOrdenAscendente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmPositivooNegativo.resx">
+      <DependentUpon>FrmPositivooNegativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmPromedio.resx">
+      <DependentUpon>FrmPromedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmSuma.resx">
+      <DependentUpon>FrmSuma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmTabladeMultiplicar.resx">
+      <DependentUpon>FrmTabladeMultiplicar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmTotalaPagarBoleteria.resx">
+      <DependentUpon>FrmTotalaPagarBoleteria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmTotalaPagarProductos.resx">
+      <DependentUpon>FrmTotalaPagarProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmTotalaPagarVenta.resx">
+      <DependentUpon>FrmTotalaPagarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
